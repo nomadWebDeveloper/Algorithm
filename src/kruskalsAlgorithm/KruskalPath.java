@@ -68,5 +68,13 @@ public class KruskalPath {
         return mst;
     }
 
+    public static void main(String[] args) {
+        KruskalPath kObject = new KruskalPath();
+        Graph graph = new Graph();
+        graph.generate();
+
+        System.out.println(kObject.kruskalFunc(graph.vertices, graph.edges));
+    }
+
 
 }

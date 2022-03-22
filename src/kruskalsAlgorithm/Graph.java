@@ -5,9 +5,10 @@ import java.util.Arrays;
 
 public class Graph {
 
+    ArrayList<String> vertices = new ArrayList<String>(Arrays.asList("A", "B", "C", "D", "E", "F", "G"));
+    ArrayList<Edge> edges = new ArrayList<Edge>();
     public void generate() {
-        ArrayList<String> vertices = new ArrayList<String>(Arrays.asList("A", "B", "C", "D", "E", "F", "G"));
-        ArrayList<Edge> edges = new ArrayList<Edge>();
+
         edges.add(new Edge(7, "A", "B"));
         edges.add(new Edge(5, "A", "D"));
         edges.add(new Edge(7, "B", "A"));
