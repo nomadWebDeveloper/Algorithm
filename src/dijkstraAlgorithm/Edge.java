@@ -1,4 +1,4 @@
-package shortestPath;
+package dijkstraAlgorithm;
 
 public class Edge implements Comparable<Edge> {
 
